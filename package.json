@@ -4,7 +4,10 @@
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
-  "author": {},
+  "author": {
+	  "name": "Andrew Rothman",
+	  "email": "andrew@andrewrothman.com"
+  },
   "scripts": {
     "build": "npx pack build"
   },
