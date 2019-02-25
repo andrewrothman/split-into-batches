@@ -1,0 +1,24 @@
+{
+  "name": "split-into-batches",
+  "description": "Splits long arrays into batches of a specified size.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {},
+  "scripts": {
+    "build": "npx pack build"
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.3.3",
+    "@pika/plugin-ts-standard-pkg": "^0.3.12",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ]
+    ]
+  }
+}
