@@ -1,12 +1,12 @@
 {
   "name": "split-into-batches",
   "description": "Splits long arrays into batches of a specified size.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "author": {
-	  "name": "Andrew Rothman",
-	  "email": "andrew@andrewrothman.com"
+    "name": "Andrew Rothman",
+    "email": "andrew@andrewrothman.com"
   },
   "scripts": {
     "build": "npx pack build"
